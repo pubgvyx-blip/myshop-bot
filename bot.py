@@ -18,7 +18,7 @@ from aiogram.types import (
 # НАСТРОЙКИ
 # ==============================
 
-BOT_TOKEN = os.getenv("8572275616:AAGB0QDBGZ99JtAG2_JLABjjpxdKnBnmj-0")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 WEBAPP_URL = os.getenv("WEBAPP_URL", "https://myshop-webapp-production.up.railway.app")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "5718190757"))
 
@@ -122,4 +122,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
